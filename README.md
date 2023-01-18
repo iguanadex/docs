@@ -5,7 +5,7 @@ coverY: 0
 
 # Protocol Overview
 
-## What is Balancer?
+## What is IguanaDEX?
 
 Balancer is a decentralized protocol that provides DeFi liquidity infrastructure.
 
