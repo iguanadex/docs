@@ -1,23 +1,27 @@
 # Table of contents
 
-* [Protocol Overview](README.md)
-* [Developer Docs](https://dev.balancer.fi/)
+* [🦎 IguanaDEX  Documentation](README.md)
 
-## Products
+## Summary of each tab
 
-* [The Vault](products/the-vault.md)
-  * [Flash Loans](concepts/features/flash-loans.md)
-* [Balancer Pools](products/balancer-pools/README.md)
-  * [Weighted Pools](products/balancer-pools/weighted-pools.md)
-  * [Composable Stable Pools](products/balancer-pools/composable-stable-pools.md)
-  * [Liquidity Bootstrapping Pools (LBPs)](products/balancer-pools/liquidity-bootstrapping-pools-lbps.md)
-  * [Managed Pools](products/balancer-pools/managed-pools/README.md)
-    * [Asset Managers](products/balancer-pools/managed-pools/asset-managers.md)
-  * [Boosted Pools](products/balancer-pools/boosted-pools.md)
-  * [Custom Pools](products/balancer-pools/custom-pools.md)
-* [Smart Order Router](products/smart-order-router.md)
-* [Balancer CoW Protocol](products/balancer-cow-protocol.md)
-* [Oracles (deprecated)](products/oracles.md)
+* [🏠 Home](summary-of-each-tab/home.md)
+* [💰 Pool](summary-of-each-tab/pool.md)
+* [📈 Trade](summary-of-each-tab/trade.md)
+* [👜 Portfolio](summary-of-each-tab/portfolio.md)
+* [📨 DAO](summary-of-each-tab/dao.md)
+* [The Vault](summary-of-each-tab/the-vault/README.md)
+  * [Flash Loans](summary-of-each-tab/the-vault/flash-loans.md)
+* [Balancer Pools](summary-of-each-tab/balancer-pools/README.md)
+  * [Weighted Pools](summary-of-each-tab/balancer-pools/weighted-pools.md)
+  * [Composable Stable Pools](summary-of-each-tab/balancer-pools/composable-stable-pools.md)
+  * [Liquidity Bootstrapping Pools (LBPs)](summary-of-each-tab/balancer-pools/liquidity-bootstrapping-pools-lbps.md)
+  * [Managed Pools](summary-of-each-tab/balancer-pools/managed-pools/README.md)
+    * [Asset Managers](summary-of-each-tab/balancer-pools/managed-pools/asset-managers.md)
+  * [Boosted Pools](summary-of-each-tab/balancer-pools/boosted-pools.md)
+  * [Custom Pools](summary-of-each-tab/balancer-pools/custom-pools.md)
+* [Smart Order Router](summary-of-each-tab/smart-order-router.md)
+* [Balancer CoW Protocol](summary-of-each-tab/balancer-cow-protocol.md)
+* [Oracles (deprecated)](summary-of-each-tab/oracles.md)
 
 ## Concepts
 
@@ -85,15 +89,6 @@
 
 ## Community
 
-* [Discord](https://discord.balancer.fi)
+* [Discord ](https://twitter.com/IguanaDEX)
+* [Twitter](https://twitter.com/IguanaDEX)
 * [Forums](https://forum.balancer.finance/)
-* [Medium](https://medium.com/balancer-protocol)
-* [Dune Analytics](https://duneanalytics.com/projects/balancer)
-
-## Developers (Deprecated) <a href="#developers" id="developers"></a>
-
-* [⛔ !!! DEPRECATED !!! ⛔](developers/deprecated.md)
-* [Guides](developers/guides/README.md)
-  * [Pool Verification](developers/guides/pool-verification.md)
-* [Smart Order Router V2](developers/smart-order-router.md)
-* [GitHub](https://github.com/balancer-labs/)

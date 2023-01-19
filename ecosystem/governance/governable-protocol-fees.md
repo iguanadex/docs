@@ -2,30 +2,30 @@
 
 ## Overview
 
-Governable Protocol Fees are fees collected by the Balancer Protocol, **not** Liquidity Providers. There are a few ways in which the fees can be collected, and far more in which they can be used. Though many Liquidity Providers may also be Balancer Governors, we will discuss them here as distinct groups for clarity.&#x20;
+Governable Protocol Fees are fees collected by the Balancer Protocol, **not** Liquidity Providers. There are a few ways in which the fees can be collected, and far more in which they can be used. Though many Liquidity Providers may also be Balancer Governors, we will discuss them here as distinct groups for clarity.
 
 ## Sources
 
 ## Swap Fees
 
-The obvious source of Protocol Fees are the swaps. Balancer swappers already pay swap fees to Liquidity Providers in exchange for making their swap possible. Fees are denominated in the Input Token when executing a swap.&#x20;
+The obvious source of Protocol Fees are the swaps. Balancer swappers already pay swap fees to Liquidity Providers in exchange for making their swap possible. Fees are denominated in the Input Token when executing a swap.
 
-The Protocol Fees for swaps can be collected as a percentage of the swap fees already being collected (a fraction of a fraction). From the swapper's perspective, there will be no price increase.&#x20;
+The Protocol Fees for swaps can be collected as a percentage of the swap fees already being collected (a fraction of a fraction). From the swapper's perspective, there will be no price increase.
 
 Upon launch, Balancer V2's **Protocol Fees for trades are turned off by default**. They can be turned on only by a vote of the Balancer Governors (BAL token holders). The governors have the power to activate and determine the amount of these fees.
 
 ## Flash Loan Fees (currently set to 0)
 
-Another source of Protocol Fees is represented by interest on [Flash Loans](../../concepts/features/flash-loans.md). Any fees collected as interest on flash loans go to the DAO Treasury. However, at deployment **flash loans fees were set to zero**, and at the time of writing, **they have still not been activated by the governance.**
+Another source of Protocol Fees is represented by interest on [Flash Loans](../../summary-of-each-tab/the-vault/flash-loans.md). Any fees collected as interest on flash loans go to the DAO Treasury. However, at deployment **flash loans fees were set to zero**, and at the time of writing, **they have still not been activated by the governance.**
 
 ## Protocol Swap Fees
 
-Once integrators start paying fees themselves, it is expected that they start paying protocol fees to the Balancer DAO. However, the 50% protocol fee on swaps and yield is not mandatory. There is no need to pay Balancer DAO any fee while your project is in its early stages. You decide when to turn fees on, how to charge a fee, and can work with Balancer to determine what split makes sense. \
+Once integrators start paying fees themselves, it is expected that they start paying protocol fees to the Balancer DAO. However, the 50% protocol fee on swaps and yield is not mandatory. There is no need to pay Balancer DAO any fee while your project is in its early stages. You decide when to turn fees on, how to charge a fee, and can work with Balancer to determine what split makes sense.\
 The payment of protocol fees comes with some important advantages:
 
 * Active support by the various service providers in the Balancer ecosystem in areas like Software development, Marketing, biz-dev etc.
 * Inclusion in the Balancer SDK, SOR (Smart Order Router) and Balancer Subgraph, making the integrator’s liquidity visible to all existing consumers of the SDK/SOR/subgraph.
-* Streamlined integration with leading liquidity aggregators like 1Inch, CowSwap, 0x and ParaSwap.&#x20;
+* Streamlined integration with leading liquidity aggregators like 1Inch, CowSwap, 0x and ParaSwap.
 
 The [ProtocolFeePercentagesProvider](https://github.com/balancer-labs/balancer-v2-monorepo/blob/faff088615a09f0a2fc52b904d58ca4aa5ae0566/pkg/interfaces/contracts/standalone-utils/IProtocolFeePercentagesProvider.sol) should be used as the ground truth to determine the protocol fee percentages to be paid by integrators.
 
