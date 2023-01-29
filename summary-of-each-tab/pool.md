@@ -5,48 +5,77 @@ coverY: 0
 
 # 💰 Pool
 
-## The Home of the Digital Market Index
+## Invest your coins in the DMI Pool to collect DMI tokens
 
-The Home tab provides some information about the Digital Market Index.
+While the 'Home' tab is all about the Digital Market Index, the 'Pool' tab focuses on the DMI Pool.
 
-The Digital Market Index is an index of 10 coins with the weight of each coin being based on its [Y+10 Marketcap as reported by Messari](#user-content-fn-1)[^1].&#x20;
+The DMI Pool is set up to track the Digital Market Index.
 
-There is also an 11th coin added to the index with a fixed weight of 10%: BUSD is a stablecoin linked 1-to-1 to the US Dollar and issued by Binance in partnership with New York-based Paxos.
-
-
-
-The aim of the Digital Market Index is to provide investors with a transparent benchmark of the crypto space&#x20;
-
-### Current information
-
-You can see which coins are currently in the index and what weights have been assigned to each of those coins.&#x20;
+Just like the Digital Market Index, there are 11 coins in the DMI Pool. The weights of each coin also closely matches their weight in the Digital Market Index.
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-19 at 01.10.12.png" alt=""><figcaption></figcaption></figure>
+### Investing into the DMI Pool
 
-### Time Machine
+Anyone can deposit one or more of the 11 coins in the DMI Pool to _**get broad exposure**_ to crypto markets and _**collect the fees**_ paid by the traders interacting with the DMI Pool.
 
-The first table shows a historical (simulated) view of the index composition, very single month since January 2018.
 
-As the variety of [Balancer Pools](../products/broken-reference/) grows, the SOR grows too! The SOR keeps expanding as new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
 
-## Taking Gas Into Account
+#### Example:
 
-In an ideal world in which gas costs are negligible, a trade between two tokens would involve each Balancer pool that contains that pair. This would utilize all the available liquidity for the trader and maintain equal prices across all pools. Such a scenario would be an _arbitrage-free state_, in which no value could be extracted from the pools' price differences.
+Alice wants to invest in the DMI Pool. She owns 1 BNB but none of the other coins in the pool. => No problem!
 
-Since there _are_ incremental gas costs for each swap added to a batch, additional pools are added to the path only when they provide enough of a price difference to make up for the gas. Since only a subset of pools are considered, this can create arbitrage opportunities across Balancer pools.
+Alice can go ahead and deposit her 1 BNB into the pool. She will then be issued some _DMI tokens_ in exchange.
 
-## How It Works
+### DMI token: what is it?
 
-The optimization mechanism finds the path through a set of Balancer Pools with the greatest output (after gas costs).
+The DMI token is a receipt issued by the DMI Pool when someone deposits coins into the pool.
 
-![](../.gitbook/assets/SORrevised4.png)
+Holders of DMI tokens can decide at any time to hand over their $DMI to the DMI Pool in exchange for their share of the pool.
 
-### Multiple Pools, Same Spot Price
 
-In order to get the best price for a trader, the SOR is designed to create an arbitrage-free state between the paths it's using. In order to achieve this, **each path the SOR routes through needs to provide the same spot price after the swap has completed.**
 
-![](<../.gitbook/assets/targetSP (1).png>)
+#### Example:&#x20;
 
-[^1]: The Y+10 Marketcap is the marketcap of the asset accounting for known issuance 10 years into the future. It is calculated by multiplying the current Price USD of the asset by its Y+10 Supply.
+Alice owns some $DMI. She can decide at any time to send her $DMI back to the DMI Pool and she will then receive her share of the pool's coins.
+
+Alice can also elect to redeem her $DMI for only 1 or a few of the coins in the pool instead for convenience.
+
+
+
+### What else can DMI token holders do with their tokens?
+
+We have seen above that $DMI can be sent back to the pool in exchange for their corresponding share of the pool at any time.
+
+But $DMI holders can do a lot more with their tokens!
+
+* Sell their tokens on [Binance](https://www.binance.com/en)
+* Deposit their tokens on [Venus Protocol](https://venus.io/) in order to borrow other coins against them
+* Deposit their tokens on [Abracadabra](https://abracadabra.money/) and borrow $MIM stablecoins against them
+* And much more!
+
+
+
+### Where do the fees come from?
+
+$DMI holders bring large liquidity to BNB Chain and this liquidity is used in 2 main ways:
+
+#### Spot Trading
+
+The DMI Pool contains 11 coins, so every possible combination of 2 coins can be traded -> that's _**55 trading pairs!**_
+
+For the math-inclined among us, here is the formula: $$\frac{11!}{2!(11-2)!}$$= 55.
+
+
+
+So anyone looking to trade say BTC for BNB or XRP for BUSD can do so on the DMI Pool directly on IguanaDEX.
+
+IguanaDEX will be integrated with all major spot trading aggregators e.g. [1Inch](https://1inch.io/), [KyberSwap](https://kyberswap.com/), [ParaSwap](https://www.paraswap.io/), [Firebird](https://firebird.finance/) and even cross-chain aggregators like [Rango](https://rango.exchange/) benefitting from cheap bridging to and from BNB Chain via [Multichain](https://multichain.org/) and other bridges.
+
+#### Leverage Trading
+
+The DMI Pool provides liquidity for leverage trading.
+
+The pool therefore collects the fees paid by leverage traders on the platform.
+
+As the pool takes the other side of every single leverage trade initiated on the platform, it will profits when leverage traders make a loss and vice versa. Past PnL data will be made available on the 'Home' tab.

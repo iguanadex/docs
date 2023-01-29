@@ -3,15 +3,31 @@ cover: ../.gitbook/assets/yellow.png
 coverY: 0
 ---
 
-# Smart Order Router
+# 👜 Portfolio
 
-## Overview
+## The Home of the Digital Market Index
 
-The Smart Order Router (SOR) finds the best prices for Balancer traders. For given input and output tokens, the SOR finds the optimal trades whether that is a direct swap in one pool, or a combination of trades hopping through multiple pools.
+The Home tab provides some information about the Digital Market Index.
 
-![](../.gitbook/assets/sor.png)
+The Digital Market Index is an index of 10 coins with the weight of each coin being based on its [Y+10 Marketcap as reported by Messari](#user-content-fn-1)[^1].&#x20;
 
-## Utilize All the Liquidity!
+There is also an 11th coin added to the index with a fixed weight of 10%: BUSD is a stablecoin linked 1-to-1 to the US Dollar and issued by Binance in partnership with New York-based Paxos.
+
+
+
+The aim of the Digital Market Index is to provide investors with a transparent benchmark of the crypto space&#x20;
+
+### Current information
+
+You can see which coins are currently in the index and what weights have been assigned to each of those coins.&#x20;
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-19 at 01.10.12.png" alt=""><figcaption></figcaption></figure>
+
+### Time Machine
+
+The first table shows a historical (simulated) view of the index composition, very single month since January 2018.
 
 As the variety of [Balancer Pools](../products/broken-reference/) grows, the SOR grows too! The SOR keeps expanding as new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
 
@@ -32,3 +48,5 @@ The optimization mechanism finds the path through a set of Balancer Pools with t
 In order to get the best price for a trader, the SOR is designed to create an arbitrage-free state between the paths it's using. In order to achieve this, **each path the SOR routes through needs to provide the same spot price after the swap has completed.**
 
 ![](<../.gitbook/assets/targetSP (1).png>)
+
+[^1]: The Y+10 Marketcap is the marketcap of the asset accounting for known issuance 10 years into the future. It is calculated by multiplying the current Price USD of the asset by its Y+10 Supply.
