@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/yellow.png
+cover: ../../.gitbook/assets/DAO_bg (4).png
 coverY: 0
 ---
 
