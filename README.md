@@ -1,12 +1,10 @@
 ---
-description: A DEX built by traders for traders
+description: Built by traders for traders
 cover: .gitbook/assets/Jungle.webp
 coverY: 222
 ---
 
-# 🦎 IguanaDEX  Documentation
-
-## What is IguanaDEX?
+# 🦎 Overview
 
 IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is-decentralized-exchange-dex) deployed on [<mark style="color:yellow;">BNB Chain</mark>](https://www.bnbchain.org/).
 

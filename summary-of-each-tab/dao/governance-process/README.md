@@ -2,7 +2,7 @@
 
 ## Summary
 
-This page outlines the Balancer Governance Process from Request for Comment \[RFC] through executing a result.&#x20;
+This page outlines the Balancer Governance Process from Request for Comment \[RFC] through executing a result.
 
 **tl;dr:**
 
@@ -41,14 +41,13 @@ Start a new conversation on the [Governance section of the forum](https://forum.
 * In the same topic thread as your RFC, share your updated proposal.
   * The proposal should be a refined RFC that includes all the suggestions from the discussion.
 * Change the tag from \[RFC] to \[Proposal].
-* Collecting final feedback and get advice for changes.&#x20;
+* Collecting final feedback and get advice for changes.
 * Wait for at least 7 days and make sure you have a general consensus among the others before moving to Snapshot.
 
 ### **Step 4: Snapshot**
 
-Now that we have a proposal, we can move into a [Snapshot](https://vote.balancer.fi) vote. If you are unable to post your Proposal to Snapshot, ask for help in the Discord #governance channel.&#x20;
+Now that we have a proposal, we can move into a [Snapshot](https://vote.balancer.fi) vote. If you are unable to post your Proposal to Snapshot, ask for help in the Discord #governance channel.
 
 ### Step 5: Results
 
-If the vote succeeds or a result has been chosen, follow through to make sure that it is properly executed. Depending on what the vote is about, it may require an action by the [Multisig](../multisig/).
-
+If the vote succeeds or a result has been chosen, follow through to make sure that it is properly executed. Depending on what the vote is about, it may require an action by the [Multisig](../multisig.md).

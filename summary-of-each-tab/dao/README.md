@@ -23,7 +23,7 @@ Voting power for the Balancer Protocol is derived from the Balancer Governance T
 
 Snapshot, a spinoff of Balancer, is an off-chain gasless multi-governance client with easy to verify and hard to contest results. Balancer Governance Votes take place on Snapshot.
 
-## [Multisig](multisig/)
+## [Multisig](multisig.md)
 
 To enact the off-chain votes on Snapshot, Balancer Protocol uses a Multisig to solidify these changes on-chain. Balancer’s Multisig signers are a diverse set of widely respected community members. The multisig does NOT have decision making power, as its role is to simply enact on-chain the decisions BAL holders make via off-chain voting.
 

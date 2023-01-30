@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🦎 IguanaDEX  Documentation](README.md)
+* [🦎 Overview](README.md)
 
 ## Summary of each tab
 
@@ -11,10 +11,9 @@
 * [📨 DAO](summary-of-each-tab/dao/README.md)
   * [Governance Process](summary-of-each-tab/dao/governance-process/README.md)
     * [RFC/Proposal Forum Post Template](summary-of-each-tab/dao/governance-process/rfc-proposal-forum-post-template.md)
-  * [BAL Governance Token](summary-of-each-tab/dao/bal-governance-token.md)
+  * [IGN Governance Token](summary-of-each-tab/dao/bal-governance-token.md)
   * [Snapshot](summary-of-each-tab/dao/snapshot.md)
-  * [Multisig](summary-of-each-tab/dao/multisig/README.md)
-    * [Other DAO Multisigs](summary-of-each-tab/dao/multisig/other-dao-multisigs.md)
+  * [Multisig](summary-of-each-tab/dao/multisig.md)
   * [Governable Protocol Fees](summary-of-each-tab/dao/governable-protocol-fees.md)
   * [Emergency subDAO](summary-of-each-tab/dao/emergency-subdao.md)
 
