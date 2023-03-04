@@ -34,5 +34,5 @@
 
 ## Community
 
-* [Discord ](https://discord.gg/hzfkJa7V)
+* [Discord ](https://discord.com/invite/yq5bUaT7Cm)
 * [Twitter](https://twitter.com/IguanaDEX)

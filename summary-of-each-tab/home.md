@@ -11,7 +11,7 @@ The 'Home' tab provides some information about the Digital Market Index.
 
 The Digital Market Index is an _**index of 10 coins**_ with the weight of each coin being based on its [Y+10 Marketcap as reported by Messari](#user-content-fn-1)[^1].&#x20;
 
-There is also an 11th coin added to the index with a fixed weight of 10%: BUSD is a stablecoin linked 1-to-1 to the US Dollar and issued by Binance in partnership with New York-based Paxos.
+There is also an 11th coin added to the index with a fixed weight of 10%: Tether USD (USDT) is a stablecoin linked 1-to-1 to the US Dollar and issued by [Tether Operations Limited](https://tether.to/en/).
 
 
 
