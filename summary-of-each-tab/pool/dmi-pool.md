@@ -1,31 +1,16 @@
----
-cover: ../.gitbook/assets/yellow.png
-coverY: 0
----
-
-# 💰 Pool
-
-## Invest your coins in the DMI Pool to collect DMI tokens
-
-While the 'Home' tab is all about the Digital Market Index, the 'Pool' tab focuses on the DMI Pool.
-
-The DMI Pool is set up to track the Digital Market Index.
-
-Just like the Digital Market Index, there are 11 coins in the DMI Pool. The weights of each coin also closely matches their weight in the Digital Market Index.
-
-
+# DMI Pool
 
 ### Investing into the DMI Pool
 
-Anyone can deposit one or more of the 11 coins in the DMI Pool to _**get broad exposure**_ to crypto markets and _**collect the fees**_ paid by the traders interacting with the DMI Pool.
+Anyone can deposit one or more of the 11 coins in the DMI Pool to _**get broad exposure**_ to crypto markets and [_**collect fees**_](dmi-pool.md#where-do-the-fees-come-from) paid by traders interacting with the DMI Pool.
 
 
 
-#### Example:
+#### Example 1:
 
 Alice wants to invest in the DMI Pool. She owns 1 BNB but none of the other coins in the pool. => No problem!
 
-Alice can go ahead and deposit her 1 BNB into the pool. She will then be issued some _DMI tokens_ in exchange.
+Alice can go ahead and deposit her 1 BNB into the pool. She will then be issued say 100 _DMI tokens_ in exchange.
 
 ### DMI token: what is it?
 
@@ -35,17 +20,23 @@ Holders of DMI tokens can decide at any time to hand over their $DMI to the DMI 
 
 
 
-#### Example:&#x20;
+#### Example 2a:&#x20;
 
-Alice owns some $DMI. She can decide at any time to send her $DMI back to the DMI Pool and she will then receive her share of the pool's coins.
+Alice owns 100 DMI tokens. She can decide at any time to send her DMI tokens back to the DMI Pool and she will then receive her share of the pool's coins in exchange.
 
-Alice can also elect to redeem her $DMI for only 1 or a few of the coins in the pool instead for convenience.
+So in this example, Alice sends 100 DMI tokens back to the DMI pool and receives a little bit of each of the coins in the DMI pool proportionally to her holdings of the pool e.g. BTC, ETH, BNB etc.
 
+#### Example 2b:&#x20;
 
+For convenience, Alice can also elect to redeem her $DMI for only 1 of the coins in the pool instead.
+
+\=> Alice sends her 100 DMI tokens back to the DMI pool in exchange for 0.15 ETH.
+
+###
 
 ### What else can DMI token holders do with their tokens?
 
-We have seen above that $DMI can be sent back to the pool in exchange for their corresponding share of the pool at any time.
+We have seen above that $DMI can be sent back to the pool in exchange for the tokens' corresponding share of the pool at any time.
 
 But $DMI holders can do a lot more with their tokens!
 
@@ -72,10 +63,10 @@ So anyone looking to trade say BTC for BNB or XRP for BUSD can do so on the DMI 
 
 IguanaDEX will be integrated with all major spot trading aggregators e.g. [1Inch](https://1inch.io/), [KyberSwap](https://kyberswap.com/), [ParaSwap](https://www.paraswap.io/), [Firebird](https://firebird.finance/) and even cross-chain aggregators like [Rango](https://rango.exchange/) benefitting from cheap bridging to and from BNB Chain via [Multichain](https://multichain.org/) and other bridges.
 
-#### Leverage Trading
+#### Futures Trading
 
-The DMI Pool provides liquidity for leverage trading.
+The DMI Pool provides liquidity for futures trading.
 
-The pool therefore collects the fees paid by leverage traders on the platform.
+The pool therefore also collects fees paid by futures traders on the platform.
 
-As the pool takes the other side of every single leverage trade initiated on the platform, it will profits when leverage traders make a loss and vice versa. Past PnL data will be made available on the 'Home' tab.
+As the pool takes the other side of every single leverage trade initiated on the platform, it will profit when futures traders make a loss and vice versa. Past PnL data will be made available on the 'Home' tab.

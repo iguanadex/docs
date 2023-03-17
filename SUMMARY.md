@@ -5,7 +5,9 @@
 ## Summary of each tab
 
 * [🏠 Home](summary-of-each-tab/home.md)
-* [💰 Pool](summary-of-each-tab/pool.md)
+* [💰 Invest](summary-of-each-tab/pool/README.md)
+  * [DMI Pool](summary-of-each-tab/pool/dmi-pool.md)
+  * [IGN/USDT Pool](summary-of-each-tab/pool/ign-usdt-pool.md)
 * [📈 Trade](summary-of-each-tab/trade.md)
 * [👜 Portfolio](summary-of-each-tab/portfolio.md)
 * [📨 DAO](summary-of-each-tab/dao/README.md)
@@ -36,3 +38,4 @@
 
 * [Discord ](https://discord.com/invite/yq5bUaT7Cm)
 * [Twitter](https://twitter.com/IguanaDEX)
+* [YouTube](https://www.youtube.com/@IguanaDEX)

@@ -15,7 +15,7 @@ There is also an 11th coin added to the index with a fixed weight of 10%: BUSD i
 
 
 
-The aim of the Digital Market Index is to provide investors with a transparent benchmark of the crypto space, one that can be tracked easily (and profitably!) by the DMI token - more on that in the [Pool section](../summary-of-each-tab/pool.md).
+The aim of the Digital Market Index is to provide investors with a transparent benchmark of the crypto space, one that can be tracked easily (and profitably!) by the DMI token - more on that in the [Pool section](../summary-of-each-tab/pool/).
 
 ### Current information
 
