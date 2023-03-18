@@ -10,10 +10,16 @@ IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is
 
 
 
-**Traders** can buy and sell the biggest coins in crypto. Traders can also get long or short exposure to the [Digital Market Index](summary-of-each-tab/home.md#the-home-of-the-digital-market-index) - the benchmark of the crypto ecosystem - by trading the DMI token.
+**For Traders:**&#x20;
+
+* Open <mark style="color:green;">**Long**</mark> or <mark style="color:red;">**Short**</mark> positions on the [Digital Market Index](summary-of-each-tab/home.md#the-home-of-the-digital-market-index) - the benchmark of the crypto ecosystem.
+* <mark style="color:green;">**Buy**</mark> and <mark style="color:red;">**Sell**</mark> the biggest coins in crypto.
+* Take advantage of great liquidity and low fees
 
 
 
-**Investors** can provide liquidity to traders by investing in the DMI token itself.&#x20;
+**For Investors:**
 
-Every coin invested in the DMI token will be sitting in the DMI pool and used efficiently to provide liquidity on a variety of spot and derivative markets.
+* Deposit your coins in the DMI Pool and collect trading fees - the pool holds the biggest cryptocurrencies
+* Use your receipts (DMI tokens) in DeFi or just sit on them and benefit from diversified crypto exposure along with continuously accruing fees
+* Accumulate IGN tokens - Iguana's own token - to collect your share of IguanaDEX's revenue
