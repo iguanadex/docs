@@ -2,6 +2,18 @@
 
 * [🦎 Overview](README.md)
 
+## Basics
+
+* [📈 Digital Market Index](basics/dmi.md)
+* [🏠 Home](basics/home.md)
+* [💰 Pool](basics/pool/README.md)
+  * [Spot Trading in the DMI Pool](basics/pool/spot-trading-in-the-dmi-pool.md)
+  * [Leverage Trading in DMI](basics/pool/leverage-trading-in-dmi.md)
+* [📈 Trade](basics/trade/README.md)
+  * [Spot Trading fees](basics/trade/spot-trading-fees.md)
+* [👜 Portfolio](basics/portfolio.md)
+* [📨 DAO](basics/dao.md)
+
 ## Summary of each tab
 
 * [🏠 Home](summary-of-each-tab/home.md)
@@ -18,17 +30,6 @@
   * [Multisig](summary-of-each-tab/dao/multisig.md)
   * [Governable Protocol Fees](summary-of-each-tab/dao/governable-protocol-fees.md)
   * [Emergency subDAO](summary-of-each-tab/dao/emergency-subdao.md)
-
-## Technical Details
-
-* [🏠 Home](technical-details/home.md)
-* [💰 Pool](technical-details/pool/README.md)
-  * [Spot Trading in the DMI Pool](technical-details/pool/spot-trading-in-the-dmi-pool.md)
-  * [Leverage Trading in DMI](technical-details/pool/leverage-trading-in-dmi.md)
-* [📈 Trade](technical-details/trade/README.md)
-  * [Spot Trading fees](technical-details/trade/spot-trading-fees.md)
-* [👜 Portfolio](technical-details/portfolio.md)
-* [📨 DAO](technical-details/dao.md)
 
 ## Security
 
