@@ -1,14 +1,12 @@
 ---
-description: 'Ethereum Contract Address: 0xba100000625a3754423978a60c9317c58a424e3d'
+description: 'Arbitrum Contract Address: -'
 ---
 
-# BAL Governance Token
+# IGN Governance Token
 
 ## Overview
 
-As Balancer Protocol moves to decentralize and diversify its governance, it will use the Balancer Governance Token (BAL) to grant voting power. Alignment between governance token holders and protocol stakeholders is crucial for successful decentralized governance, and BAL tokens are the vehicle to drive this alignment. BAL tokens are not an investment; BAL token holders should be people who interact with the protocol in some way, are committed to its future development, and want a seat at the governance table.
-
-## Contract Address
+As IguanaDEX moves to decentralize and diversify its governance, it will use the IGN token to grant voting power. Alignment between governance token holders and protocol stakeholders is crucial for successful decentralized governance, and BAL tokens are the vehicle to drive this alignment. BAL tokens are not an investment; BAL token holders should be people who interact with the protocol in some way, are committed to its future development, and want a seat at the governance table.
 
 | BAL contract Address | Network                                                                                                                      |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -62,6 +60,3 @@ Address: [0xb618F903ad1d00d6F7b92f5b0954DcdC056fC533](https://etherscan.io/addre
 For full transparency, the [seed series](https://medium.com/balancer-protocol/balancer-labs-raises-3m-to-supercharge-programmable-liquidity-8f1a42323c78) price of one BAL token was $0.60.
 
 Address: [0xB129F73f1AFd3A49C701241F374dB17AE63B20Eb](https://etherscan.io/address/0xB129F73f1AFd3A49C701241F374dB17AE63B20Eb)
-
-
-

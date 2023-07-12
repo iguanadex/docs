@@ -1,5 +1,5 @@
 ---
-description: The iguana-treasury wallet on BNB Chain
+description: The iguana-treasury wallet on Arbitrum
 ---
 
 # Multisig
@@ -18,7 +18,7 @@ The multisig address can for instance set the level of protocol fees. As a place
 
 ## Multisig Powers
 
-Balancer V2 smart contracts grant specific powers to the iguana-treasury wallet address.
+IguanaDEX smart contracts grant specific powers to the iguana-treasury wallet address.
 
 These powers are:
 
@@ -41,7 +41,7 @@ Beyond the current signers, the community shall keep a short, ordered list of po
 ## Multisig signers
 
 {% tabs %}
-{% tab title="BNB Chain" %}
+{% tab title="Arbitrum" %}
 ### Address
 
 [0xE6ae1e6B67ad5D92F9a16B4CcaB45210DA43c8Da](https://bscscan.com/address/0xe6ae1e6b67ad5d92f9a16b4ccab45210da43c8da)
@@ -49,35 +49,10 @@ Beyond the current signers, the community shall keep a short, ordered list of po
 ### Signers
 
 * [Styliann](https://twitter.com/Styliann\_) (IguanaDEX)
-* [Mut.eth](https://twitter.com/Mut\_eth)
-* [Nal X](https://twitter.com/0xNalX)
+* [Mut.eth](https://twitter.com/Mut\_eth) (Dewhales)
+* [Nal X](https://twitter.com/0xNalX) (Wonderland)
 * [Weierstrass](https://twitter.com/weierstrass42)
 * [Wayne More](https://twitter.com/ThisIsWayneMore)
-
-### Future Signer Short-List
-
-{% hint style="info" %}
-Every so often, multisig signers are rotated out if they request to leave the multisig or do not fulfill their [Signer Duties](multisig.md#signer-duties). This is a list of replacement candidates should current signers be removed. The multisig might also become 4-out-of-7.
-{% endhint %}
-
-* Sety, StakeFinance
-* Mounir, Paraswap (0x0951ff0835302929d6c0162b3d2495a85e38ec3a)
-{% endtab %}
-
-{% tab title="Polygon" %}
-### Address
-
-[0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80](https://polygonscan.com/address/0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80)
-
-### Signers
-
-* [fabien](https://twitter.com/bonustrack87) (Snapshot Labs)
-* [solarcurve](https://twitter.com/0xsolarcurve) (Baller)
-* [bakamoto](https://twitter.com/bakamoto20) (Baller, Liquidity Mining Committee)
-* jnapier (Baller)
-* [Xeonus](https://twitter.com/Xeonusify) (Baller)
-* [Mike B](https://twitter.com/DefiGod5) (Baller)
-* [zekraken](https://twitter.com/The\_Krake) (Baller)
 {% endtab %}
 {% endtabs %}
 
@@ -114,7 +89,7 @@ While also actively experimenting with governance-related initiatives, the Balan
 
 ## Signer Duties
 
-All signers are expected to create an Ethereum transaction ratifying each decision made by IGN holders through Snapshot votes. This signature is expected to be done within the two weeks after the snapshot vote was concluded. Even after quorum is reached (by n signers), the remaining signers are also expected to sign before a multisig action is executed. This procedure aims to regularly confirm each signers’ conformity to the off-chain votes and also to serve as recent proof of their ability to sign.
+All signers are expected to create a transaction on Arbitrum ratifying each decision made by IGN holders through Snapshot votes. This signature is expected to be done within the two weeks after the snapshot vote was concluded. Even after quorum is reached (by n signers), the remaining signers are also expected to sign before a multisig action is executed. This procedure aims to regularly confirm each signers’ conformity to the off-chain votes and also to serve as recent proof of their ability to sign.
 
 A signer shall lose his/her role (by action of the remaining multisig signers excluding him/her) in case he/she:
 
