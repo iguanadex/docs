@@ -15,21 +15,25 @@ The aim of the Digital Market Index is to provide investors with a transparent b
 
 ## ✳️ Index calculation
 
-The universe of digital assets considered for inclusion in the index is comprised of the top 100 digital assets by [Marketcap](https://www.coinbase.com/learn/crypto-basics/what-is-market-cap). The index is rebalanced on the first business day of each quarter.
+The universe of digital assets considered for inclusion in the index is comprised of the top 100 digital assets by [Real Volume](#user-content-fn-1)[^1] as reported by [Messari](https://messari.io/). The index is rebalanced on the first business day of each quarter.
 
-1\) Filter out any digital asset that represents a [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) (USDC, EURS...) or a receipt token (e.g. stETH, WBTC...).
+1\) Filter out any digital asset that represents a [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) (USDC, EURS...), a [wrapped token](https://www.ledger.com/academy/what-is-wrapped-crypto) (e.g. WBTC) or a [receipt token](https://www.pcmag.com/encyclopedia/term/defi-receipt-token) (e.g. stETH).
 
-2\) Rank them by [Y+10 Marketcap](#user-content-fn-1)[^1] as reported by [Messari](https://messari.io/).
+2\) Rank the remaining digital assets considered by Real Volume - in descending order, highest volume is #1.
 
-3\) Filter out the ones for which Marketcap / Y+10 Marketcap is lower than 50%.
+3\) Calculate the average of the Real Volumes of the digital assets in positions #11-to-#20 in that list
 
-4\) If at this point the top 10 digital assets in our ranked list are the same ones as the ones currently included in the index we can proceed. However, if one or more of the digital assets are potential new additions, we apply the following rule:
+4\) Now rank the digital assets by [Y+10 Marketcap](#user-content-fn-2)[^2] as reported by [Messari](https://messari.io/).
 
-\=> a new digital asset can only be added if it made the top 10 after stage 3 for 2 continuous quarterly calculations. If so, then the digital asset gets added.
+5\) Filter out the digital assets with Real Volume < average Real Volume calculated in step 3.
+
+6\) If at this point the top 10 digital assets in our ranked list are the same ones as the ones currently included in the index we can proceed. However, if one or more of the digital assets are potential new additions, we apply the following rule:
+
+\=> a new digital asset can only be added if it made the top 10 after stage 5 for 2 continuous quarterly calculations. If so, then the digital asset gets added.
 
 Correspondingly, one of the digital assets currently in the index will be dropped: the one with the lowest Y+10 Marketcap at today's prices.
 
-5\) At this point we now have a list of 10 digital assets along with their Y+10 Marketcaps in Euros. In order to calculate the weights, we use the square root of each of the Y+10 Marketcaps of the coins:
+7\) At this point we now have a list of 10 digital assets along with their Y+10 Marketcaps in Euros. In order to calculate the weights, we use the square root of each of the Y+10 Marketcaps of the coins:
 
 $$
 W_i = \frac{\sqrt M_i}{\sum_n  \sqrt M_i} \forall i \in \{ 1, 2, ..., 10 \}
@@ -49,4 +53,6 @@ There you can see which digital assets are currently in the index and their resp
 
 The first table shows a historical (simulated) view of the index composition, every single month since January 2018.
 
-[^1]: The Y+10 Marketcap is the marketcap of the asset accounting for known issuance 10 years into the future. It is calculated by multiplying the current Price USD of the asset by its Y+10 Supply.
+[^1]: Real Volume is trading volume of the asset over the selected timeframe from the exchanges Messari includes in its Real Volume methodology.Reported Volume is the trading volume of the asset over the selected timeframe from all exchanges covered by Messari.
+
+[^2]: The Y+10 Marketcap is the marketcap of the asset accounting for known issuance 10 years into the future. It is calculated by multiplying the current Price USD of the asset by its Y+10 Supply.

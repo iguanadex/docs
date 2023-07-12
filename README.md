@@ -6,7 +6,9 @@ coverY: 222
 
 # 🦎 Overview
 
-IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is-decentralized-exchange-dex) deployed on [<mark style="color:yellow;">BNB Chain</mark>](https://www.bnbchain.org/).
+IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is-decentralized-exchange-dex) to-be-deployed on Arbitrum.
+
+The exchange will be leveraging ZetaChain's cross-chain messaging technology so the coins listed on IguanaDEX are actually native to their respective chains!
 
 
 

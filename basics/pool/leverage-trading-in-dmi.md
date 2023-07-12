@@ -1,2 +1,0 @@
-# Leverage Trading in DMI
-

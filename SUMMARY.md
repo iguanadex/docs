@@ -5,22 +5,14 @@
 ## Basics
 
 * [📈 Digital Market Index](basics/dmi.md)
-* [🏠 Home](basics/home.md)
-* [💰 Pool](basics/pool/README.md)
-  * [Spot Trading in the DMI Pool](basics/pool/spot-trading-in-the-dmi-pool.md)
-  * [Leverage Trading in DMI](basics/pool/leverage-trading-in-dmi.md)
-* [📈 Trade](basics/trade/README.md)
-  * [Spot Trading fees](basics/trade/spot-trading-fees.md)
-* [👜 Portfolio](basics/portfolio.md)
-* [📨 DAO](basics/dao.md)
 
 ## Summary of each tab
 
 * [🏠 Home](summary-of-each-tab/home.md)
-* [💰 Invest](summary-of-each-tab/pool/README.md)
+* [📈 Trade](summary-of-each-tab/trade.md)
+* [💰 Pools](summary-of-each-tab/pool/README.md)
   * [DMI Pool](summary-of-each-tab/pool/dmi-pool.md)
   * [IGN/USDT Pool](summary-of-each-tab/pool/ign-usdt-pool.md)
-* [📈 Trade](summary-of-each-tab/trade.md)
 * [👜 Portfolio](summary-of-each-tab/portfolio.md)
 * [📨 DAO](summary-of-each-tab/dao/README.md)
   * [Governance Process](summary-of-each-tab/dao/governance-process/README.md)
