@@ -12,10 +12,10 @@ IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is
 
 The exchange is based on the concept of [concentrated liquidity](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) pools created by [Uniswap](https://app.uniswap.org) (v3).
 
-### Trade <a href="#trade" id="trade"></a>
+### [Trade](readme/trade.md) <a href="#trade" id="trade"></a>
 
 > Instantly swap crypto tokens: no registration or account needed.
 
-### Earn <a href="#earn" id="earn"></a>
+### [Earn](readme/earn.md) <a href="#earn" id="earn"></a>
 
 > Earn trading fees and IGN token incentives by providing liquidity.
