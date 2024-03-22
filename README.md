@@ -1,27 +1,21 @@
 ---
-description: Built by traders for traders
-cover: .gitbook/assets/Jungle.webp
-coverY: 222
+description: IguanaDEX helps you TRADE your crypto and EARN more crypto.
+cover: .gitbook/assets/jungle.webp
+coverY: 0
 ---
 
-# 🦎 Overview
-
-IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is-decentralized-exchange-dex) to-be-deployed on Arbitrum.
-
-The exchange will be leveraging ZetaChain's cross-chain messaging technology so the coins listed on IguanaDEX are actually native to their respective chains!
+# 🦎 IguanaDEX Intro
 
 
 
-**For Traders:**&#x20;
+IguanaDEX is a [Decentralized Exchange](https://chain.link/education-hub/what-is-decentralized-exchange-dex) deployed on the [Etherlink](https://etherlink.com) blockchain.
 
-* Open <mark style="color:green;">**Long**</mark> or <mark style="color:red;">**Short**</mark> positions on the [Digital Market Index](summary-of-each-tab/home.md#the-home-of-the-digital-market-index) - the benchmark of the crypto ecosystem.
-* <mark style="color:green;">**Buy**</mark> and <mark style="color:red;">**Sell**</mark> the biggest coins in crypto.
-* Take advantage of great liquidity and low fees
+The exchange is based on the concept of [concentrated liquidity](https://docs.uniswap.org/concepts/protocol/concentrated-liquidity) pools created by [Uniswap](https://app.uniswap.org) (v3).
 
+### Trade <a href="#trade" id="trade"></a>
 
+> Instantly swap crypto tokens: no registration or account needed.
 
-**For Investors:**
+### Earn <a href="#earn" id="earn"></a>
 
-* Deposit your coins in the DMI Pool and collect trading fees - the pool holds the biggest cryptocurrencies
-* Use your receipts (DMI tokens) in DeFi or just sit on them and benefit from diversified crypto exposure along with continuously accruing fees
-* Accumulate IGN tokens - Iguana's own token - to collect your share of IguanaDEX's revenue
+> Earn trading fees and IGN token incentives by providing liquidity.
