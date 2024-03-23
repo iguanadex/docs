@@ -6,9 +6,7 @@ description: >-
 
 # 👋 Getting Started
 
-IguanaDEX lets users [Trade](trade.md) & [Earn](earn.md) without the need to go through a Centralized Exchange or counterparty.
-
-All you need to get started is a wallet and here are some examples:
+All you need to get started is a wallet and here are some examples of browser extension wallets:
 
 * [MetaMask](https://metamask.io/)
 * [Coinbase Wallet](https://www.coinbase.com/wallet)
@@ -21,6 +19,18 @@ Here is a tutorial showing you how to set up MetaMask:
 
 
 
-MetaMask and the other wallets listed above are browser extensions. You would typically use them within Chrome, Firefox or Brave browser.
+Once you have set up your wallet, you will need some tokens on Etherlink - the chain where IguanaDEX lives.
+
+If you _already_ have tokens on another chain:
+
+➡️ [Bridge your tokens to Etherlink](bridge-tokens-to-etherlink.md)
+
+
+
+If you don't yet own any cryptocurrency:
+
+➡️ [On-ramp your fiat money to Etherlink](on-ramp-to-etherlink.md)
+
+
 
 Once you're done with this, browse to [https://iguanadex.com](https://iguanadex.com) to start trading!

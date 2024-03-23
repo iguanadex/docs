@@ -1,7 +1,9 @@
 # Table of contents
 
 * [🦎 IguanaDEX Intro](README.md)
-  * [👋 Getting Started](readme/getting-started.md)
+  * [👋 Getting Started](readme/getting-started/README.md)
+    * [Bridge tokens to Etherlink](readme/getting-started/bridge-tokens-to-etherlink.md)
+    * [On-ramp to Etherlink](readme/getting-started/on-ramp-to-etherlink.md)
   * [🔄 Trade](readme/trade.md)
   * [💰 Earn](readme/earn.md)
 * [🧑‍🤝‍🧑 Community](community/README.md)
