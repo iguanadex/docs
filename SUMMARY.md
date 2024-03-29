@@ -6,7 +6,6 @@
     * [On-ramp to Etherlink](readme/getting-started/on-ramp-to-etherlink.md)
   * [🔄 Trade](readme/trade.md)
   * [💰 Earn](readme/earn.md)
-  * [🪙 Tokenomics](readme/tokenomics.md)
 
 ## 🦎 PRODUCTS
 
@@ -19,9 +18,13 @@
 * [Twitter](https://twitter.com/iguanadex)
 * [Discord ](https://discord.com/invite/yq5bUaT7Cm)
 * [GitHub](https://github.com/Iguana-DEX)
+* [Contact Us](community/contact-us.md)
 
 ***
 
+* [🏛️ IguanaDEX on Mainnet](iguanadex-on-mainnet/README.md)
+  * [🪙 Tokenomics](iguanadex-on-mainnet/tokenomics.md)
+  * [🔎 Security Audits](iguanadex-on-mainnet/security-audits.md)
 * [🏗️ IguanaDEX on Testnet](iguanadex-on-testnet/README.md)
   * [Contract Addresses](iguanadex-on-testnet/contract-addresses.md)
   * [Token Addresses](iguanadex-on-testnet/token-addresses.md)
