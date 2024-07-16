@@ -1,0 +1,3 @@
+# 💱 Token Addresses
+
+<table><thead><tr><th width="165">Token Name</th><th width="136">Token Symbol</th><th>Etherlink Testnet Address</th></tr></thead><tbody><tr><td>Wrapped XTZ</td><td>WXTZ</td><td>0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8</td></tr><tr><td>Iguana Token</td><td>IGN</td><td></td></tr><tr><td>Eternal USD</td><td>eUSD</td><td>0xb5c5f2f9d9d9e7c2e885549afb857306d119c701</td></tr><tr><td>Tether USD</td><td>USDT</td><td></td></tr><tr><td>USD Coin</td><td>USDC</td><td></td></tr><tr><td>Wrapped ETH</td><td>WETH</td><td></td></tr><tr><td>WBTC</td><td>WBTC</td><td></td></tr></tbody></table>
