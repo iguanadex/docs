@@ -1,4 +1,4 @@
-# Contract Addresses
+# 📄 Contract Addresses
 
 ### **Core**
 
