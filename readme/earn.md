@@ -6,6 +6,9 @@ You can only swap tokens on IguanaDEX if there is enough liquidity for those tok
 
 Providing liquidity will get you LP Tokens, which will earn you rewards in the form of trading fees for making sure there's always liquidity for the exchange to use.
 
-### Yield Farming <a href="#yield-farming" id="yield-farming"></a>
+### Liquidity Provision fees vs Impermanent loss <a href="#yield-farming" id="yield-farming"></a>
 
-Yield farming lets users that are providing liquidity earn IGN rewards by locking their LP tokens into a smart contract. The incentive is to balance out the risk of [impermanent loss](https://academy.binance.com/en/articles/impermanent-loss-explained) that comes along with locking in your liquidity.
+Liquidity providers net P\&L on the LP operation mainly depends on 2 things:
+
+* The fees received by liquidity providers - which are paid by the traders
+* The risk of [impermanent loss](https://academy.binance.com/en/articles/impermanent-loss-explained) should the liquidity provider remove liquidity at a price that is significantly different from the price level that prevailed when they added liquidity

@@ -6,7 +6,7 @@
 
 ### **Periphery**
 
-<table><thead><tr><th width="282">Contract</th><th>Address</th></tr></thead><tbody><tr><td>SwapRouter (v3)</td><td>0x83ae0Ee6bD5fafb87633d41dEa5623727705C130</td></tr><tr><td>V3Migrator</td><td>0x222c5C6485C8ceBdc76A9d456B917A0c554eda65</td></tr><tr><td>NonfungiblePositionManager</td><td>0x8682Ce5E26Eb523b3F0E300387008DD8204FfA9C</td></tr><tr><td>QuoterV2</td><td>0x3531ACe66aDb3374974C5ae9eFC51F03f28C834d</td></tr><tr><td>TickLens</td><td>0x30dE0DcB024C472b657Cf7b69c3399614282dF1d</td></tr><tr><td>PancakeInterfaceMulticall</td><td>0xBc7e115498d0CF43F64e79886F1094a8d2048a59</td></tr></tbody></table>
+<table><thead><tr><th width="282">Contract</th><th>Address</th></tr></thead><tbody><tr><td>SwapRouter (v3)</td><td>0x83ae0Ee6bD5fafb87633d41dEa5623727705C130</td></tr><tr><td>V3Migrator</td><td>0x222c5C6485C8ceBdc76A9d456B917A0c554eda65</td></tr><tr><td>NonfungiblePositionManager</td><td>0x8682Ce5E26Eb523b3F0E300387008DD8204FfA9C</td></tr><tr><td>QuoterV2</td><td>0x3531ACe66aDb3374974C5ae9eFC51F03f28C834d</td></tr><tr><td>TickLens</td><td>0x30dE0DcB024C472b657Cf7b69c3399614282dF1d</td></tr><tr><td>PancakeInterfaceMulticall</td><td>0xBc7e115498d0CF43F64e79886F1094a8d2048a59</td></tr><tr><td>PancakeInterfaceMulticallV2</td><td>0xa318d3b9Af779Fae6429cA689bc2241d01F4C8D0</td></tr></tbody></table>
 
 ### **Routing**
 

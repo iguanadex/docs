@@ -1,10 +1,10 @@
 ---
-description: Decentralized Exchange deployed on the Etherlink blockchain.
+description: Crypto Trading Hub on the Etherlink blockchain.
 cover: .gitbook/assets/jungle.webp
 coverY: 0
 ---
 
-# IguanaDEX Intro
+# 🦎 IguanaDEX Intro
 
 IguanaDEX helps you TRADE your crypto and EARN more crypto.
 
@@ -19,9 +19,3 @@ Instantly swap crypto tokens: no registration or counterparty needed.
 ### [Earn](readme/earn.md) <a href="#earn" id="earn"></a>
 
 Earn trading fees and IGN token incentives by providing liquidity.
-
-
-
-### Ready to get started?
-
-➡️ Follow our [guide](readme/getting-started/).
