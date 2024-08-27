@@ -2,7 +2,7 @@
 icon: message-question
 ---
 
-# Help
+# 📞 Help
 
 ## How do I get started?
 
@@ -21,7 +21,7 @@ You can then for example swap some of those WETH tokens for XTZ and make sure yo
 * Check out the section of the [Security Audits](iguanadex-on-mainnet/security-audits.md) section.
 * Full Transparency:
   * The code for the [IguanaDEX website](https://iguanadex.com) is available here, fully open source.
-  * Our contracts are verified on the [Etherlink explorer](https://explorer.etherlink.com), so you know that what you see is what you get. Check them out [here](https://docs.pancakeswap.finance/developers/smart-contracts).
+  * Our contracts are verified on the [Etherlink explorer](https://explorer.etherlink.com), so you know that what you see is what you get. Check them out [here](iguanadex-on-mainnet/contract-addresses.md).
 * Security best practices:
   * The chefs use multisig for all contracts.
   * Our contracts’ time-lock gives you peace of mind.
