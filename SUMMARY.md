@@ -2,7 +2,7 @@
 
 ## 🦎 IguanaDEX Intro
 
-* [🟢 Get Started](README.md)
+* [🍀 Get Started](README.md)
 * [Bridge tokens to Etherlink](iguanadex-intro/bridge-tokens-to-etherlink.md)
 * [🔄 Trade](iguanadex-intro/trade.md)
 * [💰 Earn](iguanadex-intro/earn.md)
@@ -20,6 +20,7 @@
 
 ## 🧑‍🤝‍🧑 Community
 
+* [💬 Contact Us](community/contact-us.md)
 * [Twitter](https://twitter.com/etherlink)
 * [Discord ](https://discord.gg/invite/etherlink)
 * [GitHub](https://github.com/iguanadex?tab=repositories)

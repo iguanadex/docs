@@ -1,10 +1,24 @@
 ---
 description: Crypto Trading Hub on the Etherlink blockchain.
-cover: .gitbook/assets/jungle.webp
+cover: .gitbook/assets/bg-header.webp
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# 🟢 Get Started
+# 🍀 Get Started
 
 IguanaDEX helps you TRADE your crypto and EARN more crypto.
 
